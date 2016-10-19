@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.network.netprogramming.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_get_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="get_String"
+        android:text="Get_StringRequest" />
+
+    <Button
+        android:onClick="post_String"
+        android:id="@+id/btn_post_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_get_string"
+        android:layout_centerHorizontal="true"
+        android:text="Post_StringRequest" />
+
+    <Button
+        android:onClick="get_Json"
+        android:id="@+id/btn_get_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_post_string"
+        android:layout_below="@+id/btn_post_string"
+        android:text="Get_JsonRequest" />
+
+    <Button
+        android:onClick="post_Json"
+        android:id="@+id/btn_post_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_get_json"
+        android:layout_centerHorizontal="true"
+        android:text="Post_JsonRequest" />
+</RelativeLayout>

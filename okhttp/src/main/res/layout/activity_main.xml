@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wrk.okhttp.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_showimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_downimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="下载图片"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_getjsonstring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_downimage"
+        android:layout_alignLeft="@+id/btn_downimage"
+        android:layout_alignStart="@+id/btn_downimage"
+        android:text="获取Json数据请求"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_showimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_getjsonstring"
+        android:layout_centerHorizontal="true"
+        android:text="获取图片"/>
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_showimage"
+        android:layout_centerHorizontal="true"
+        android:text="模拟表单提交数据"/>
+</RelativeLayout>
