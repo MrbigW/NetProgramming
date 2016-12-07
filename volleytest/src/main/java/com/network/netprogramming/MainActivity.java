@@ -1,11 +1,8 @@
 package com.network.netprogramming;
 /**
  * 1、Volley的get和post请求
- * <p>
  * 2、Volley的网络请求建立和取消队列请求
- * <p>
  * 3、Volley与Activity生命周期的联动
- * <p>
  * 4、Volley的简单的二次回调封装
  */
 
